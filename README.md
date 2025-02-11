@@ -34,6 +34,7 @@ Example maze
 
 ## Fitness Score
 $$f = (\text{Goal reached bias})+ x_{fin}\times y_{fin} + (x_{fin}+y_{fin})$$
+
 The score is both multiplicative and additive of the final x, y coordinates to award genes that moved in any direction, diagonal or not.
 
 Genes are sorted by score and the top half is selected for breeding.
